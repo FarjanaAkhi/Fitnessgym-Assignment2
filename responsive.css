@@ -1,0 +1,36 @@
+@media only screen and(min-width:601px){
+    .nav-bar{
+        display: flex;
+    }
+    .fa-solid{
+        display: none;
+    }
+   
+   }
+
+
+
+
+
+
+
+
+
+
+
+@media  only screen and (max-width:600px) {
+    .nav-bar{
+       display: none;
+    }
+    .fa-solid{
+       
+       margin-top: 30px;
+       
+    }
+    .banner{
+        
+        flex-direction: column;
+        align-items: center;
+    }
+   
+}

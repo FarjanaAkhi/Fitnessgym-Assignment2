@@ -10,7 +10,9 @@
     font-style: normal;
     font-size: 60px;
   }
-  
+  .fa-solid{
+   
+  }
  
   
   .inter-normal {
@@ -25,7 +27,7 @@
     color: white;
 }
  .inter-normal{
-    background: black;
+   background-color: black;
     color: white;
  }
 
@@ -72,9 +74,8 @@ margin-top: 15px;
     background-size: cover;
     border:1px solid blue;
    
-    justify-content: center;
-    align-content: center;
-    z-index: -1;
+   
+    
 }
 
 .content{
@@ -237,6 +238,8 @@ align-items: center;
     width: 366px;
 height: 312px;
 border-radius: 18px;
+object-fit: none;
+object-position: 65% 30%;
 
 }
 .run-part *{
@@ -298,12 +301,16 @@ background: rgb(34, 34, 34);
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.1);
 }
-.level{
-    grid-column: 1;
+#level{
+    grid-column: span 2;
     padding: 12px 40px 12px 20px;
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.1);
+    margin-right: 90px;
    
+}
+.input1{
+    background: none;
 }
 .btn3{
    
