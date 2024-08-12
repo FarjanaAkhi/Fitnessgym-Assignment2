@@ -1,3 +1,126 @@
+@media  only screen and (max-width:576px) {
+    
+    .nav{
+
+      margin: 0 auto;
+    }
+    .nav-bar{
+       display: none;
+    }
+    .fa-solid{
+       
+       margin-top: 30px;
+       margin-left: 200px;
+    }
+    .content{
+     
+       width: 100%;
+       margin:0 auto;
+      
+    }
+    .content h1 {
+        font-size: 36px;
+       
+    }
+  .inter-font{
+    font-size: 36px;
+  }
+  
+  
+  .btn1,.btn2{
+    width: 100px;
+height: 40px;
+  }
+    .image-section{
+      margin: 10px auto;
+    }
+    .banner{
+        
+        flex-direction: column;
+        justify-items: center;
+        margin: 0 auto;
+        width: 400px;
+        width: 100%;
+    }
+    .text3{
+        position: relative;
+       margin-top: 500px;
+       
+
+
+    }
+    .habit{
+        flex-direction: column;
+    }
+    .run-part{
+        flex-direction: column;
+        width: 90%;
+        height: 380px;
+        height: 100%;
+        margin: 10px auto;
+
+    }
+    .text-part{
+       align-items: center;
+       text-align: left;
+    }
+    .run-part img{
+      justify-content: center;
+    }
+    .bmi-section{
+        flex-direction: column;
+       
+        margin: 0;
+        width:400px;
+        height: 1000px;
+        width: 100%;
+    }
+    .bmi-section h1{
+      margin-right: 90px;
+      border: 1px solid lawngreen;
+    
+    }
+    
+    .calculate-bmi{
+      display: flex;
+      flex-direction: column;
+      width: 400px ;
+    }
+    
+   
+    
+    .meet-container{
+        display: flex;
+        flex-direction:column ;
+        margin: 10px auto;
+        width: 400px;
+        height: 1190px;
+    }
+   
+.lastpart{
+  flex-direction: column;
+  margin: 300px auto;
+}
+
+.footer-part{
+  max-width: 400px;
+  height: 1000px;
+ 
+  position: absolute;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
 @media only screen and(min-width:992px){
     .nav-bar{
         display: flex;
@@ -18,54 +141,3 @@
 
 
 
-@media  only screen and (max-width:576px) {
-    
-    .nav{
-
-       justify-content: right; 
-    }
-    .nav-bar{
-       display: none;
-    }
-    .fa-solid{
-       
-       margin-top: 30px;
-       margin-left: 200px;
-    }
-    .content{
-        margin-left: 200px;
-    }
-
-    .image-section{
-        margin-left: 200px;
-    }
-    .banner{
-        
-        flex-direction: column;
-        justify-items: center;
-        margin: 0 auto;
-    }
-    .text3{
-        position: relative;
-       margin-top: 500px;
-       
-
-
-    }
-    .habit{
-        flex-direction: column;
-    }
-    .run-part{
-        flex-direction: column;
-        width: 100%;
-    }
-    .bmi-section{
-        flex-direction: column;
-    }
-    .meet-container{
-        display: flex;
-        flex-direction:column ;
-      
-    }
-   
-}
