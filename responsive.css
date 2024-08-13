@@ -32,7 +32,10 @@
 height: 40px;
   }
     .image-section{
-      margin: 10px auto;
+    margin-left: 65px;
+    width: 353px;
+height: 588px;
+
     }
     .banner{
         
@@ -42,6 +45,8 @@ height: 40px;
         width: 400px;
         width: 100%;
     }
+
+   
     .text3{
         position: relative;
        margin-top: 500px;
@@ -70,21 +75,31 @@ height: 40px;
     .bmi-section{
         flex-direction: column;
        
-        margin: 0;
-        width:400px;
+       
+        margin-top: 30px;
+        width:450px;
         height: 1000px;
         width: 100%;
     }
     .bmi-section h1{
-      margin-right: 90px;
+     
       border: 1px solid lawngreen;
-    
+     
     }
-    
+    .bmi-text{
+      text-align: left;
+      margin-left: 25px;
+    }
+   
+    .bmi-chart{
+      margin: 0 auto;
+    }
     .calculate-bmi{
       display: flex;
       flex-direction: column;
-      width: 400px ;
+      width: 500px ;
+     margin: 20px auto;
+     margin-left: 0;
     }
     
    
@@ -93,8 +108,15 @@ height: 40px;
         display: flex;
         flex-direction:column ;
         margin: 10px auto;
-        width: 400px;
+        width: 350px;
         height: 1190px;
+        padding: 20px;
+    align-items: center;
+    }
+    .meet{
+      height: 1780px;
+      width: 400px;
+     
     }
    
 .lastpart{
@@ -103,14 +125,15 @@ height: 40px;
 }
 
 .footer-part{
-  max-width: 400px;
-  height: 1000px;
- 
-  position: absolute;
+  max-width: 576px;
+  width: auto;
+  height: 986px;
+  text-align: center;
+  margin: 0 auto;
+  
 }
 
-
-
+ 
 
 }
 
