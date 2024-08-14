@@ -293,38 +293,58 @@ background: rgb(34, 34, 34);
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: 3;
     border: 1px solid red;
-    grid-gap: 10px;
-    grid-column-gap:5px;
+    gap: 20px;
+ 
+  
   
 }
+
 .bmi-part{
-    max-width: 270px;
-   
+   width: 295px;
+  
     padding: 12px 40px 12px 20px;
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.1);
 }
-#level{
-    grid-column: span 2;
+.opt{
+    margin-right: 22px;
+    color: grey;
+      padding: 12px 40px 12px 20px;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.1);
+      border-right: 25px solid transparent;
+}
+.opt1{
+  grid-column: 1 /span 2;
+  margin-right: 22px;
+  color: grey;
     padding: 12px 40px 12px 20px;
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.1);
-    margin-right: 90px;
-   
+    border-right: 25px solid transparent;
+  
 }
+   
+
 .input1{
     background: none;
 }
 .btn3{
-   
+   position:absolute;
     width: 224px;
     height: 54px;
     border-radius: 42px;
 
 background: rgb(230, 83, 60);
-border: 1px  solid  rgb(230, 83, 60);
+border: 1px  solid  rgb(46, 24, 243);
 margin-top: 10px;
+
 }
+.btncls{
+    border: 1px solid darkred;
+   text-align: left;
+}
+
 .bmi-chart{
     display: grid;
     grid-template-rows: repeat(5,1fr);
@@ -415,3 +435,33 @@ background: rgb(34, 34, 34);
     margin-top: 70px;
 }
 
+/* unique part */
+
+.extra-part{
+  
+   display: flex;
+    border: 1px solid fuchsia;
+   width: 1050px;
+   height: 400px;
+   margin: 90px auto;
+   justify-items: center;
+  align-items: center;
+  background: linear-gradient(0, rgb(107, 103, 103), rgb(53, 52, 56));
+   border-radius: 20px;
+ 
+}
+
+.box{
+    width: 50%;
+    height: 300px;
+    margin: 10px auto;
+    text-align: center;
+   
+   
+   
+}
+
+.box img{
+    width: 50%;
+    border-radius: 25px;
+}
