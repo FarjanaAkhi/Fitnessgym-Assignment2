@@ -1,4 +1,21 @@
+@media screen and (min-width: 1024px){
+  .nav-bar{
+      display: flex;
+  }
+  .fa-solid{
+      display: none;
+  }
+ 
+ }
+
+
+
+
+
+
 @media  only screen and (max-width:576px) {
+
+
     
    
   .nav{
@@ -29,22 +46,28 @@
   
   
   .btn1,.btn2{
-    width: 100px;
+    width: 146PX;
 height: 40px;
   }
     .image-section{
-    margin-left: 65px;
-    width: 353px;
-height: 588px;
+   width: 50%;
+height:auto;
+margin: 0 auto;
 
     }
+    .banner img{
+       width:300px; 
+      height: 470PX;
+    }
+
+   
     .banner{
         
         flex-direction: column;
         justify-items: center;
         
       
-       width: 100%;
+       width:100%;
     }
 
    
@@ -57,14 +80,14 @@ height: 588px;
     }
     .habit{
         flex-direction: column;
-        border: 1px solid darkorange;
+       
     }
     .run-part{
         flex-direction: column;
         width: 90%;
-        height: 380px;
-        height: 100%;
-        margin: 10px auto;
+        height:100%;
+       padding: 20px ;
+        margin: 90px auto;
 
     }
     .text-part{
@@ -76,16 +99,18 @@ height: 588px;
     }
     .bmi-section{
         flex-direction: column;
-      
+        width:100%;
+        height: 772px;
+        margin-left: 0;
        
         margin-top: 30px;
-        width:450px;
+       
         height: 1000px;
-        width: 100%;
+       text-align: left;
     }
     .bmi-section h1{
      
-      border: 1px solid lawngreen;
+     
      width: 100%;
     }
     .bmi-text{
@@ -95,17 +120,27 @@ height: 588px;
    
     .bmi-chart{
       margin: 0 ;
+      width: 100%;
+     
     }
     .calculate-bmi{
       display: flex;
       flex-direction: column;
-      max-width: 500px ;
-     margin: 0;
+      width: 400px;
+    
+    margin: 0;
      margin-top: 35px;
-    
-    }
-    
    
+    }
+    .bmi-part{
+      width: 50%;
+    }
+   
+   .cal-part{
+   
+   width: 100%;
+  
+   }
     
     .meet-container{
         display: flex;
@@ -118,31 +153,35 @@ height: 588px;
     margin-bottom: 10px;
     }
     .meet{
-      height: 1780px;
+      height: 1880px;
       width: 400px;
      
     }
    
 .lastpart{
   flex-direction: column;
-margin-top:40px;
-width: 400px;
-border: 1px solid fuchsia;
-margin-top: 20px;
 
+width: 75%;
+
+margin-top: 20px;
+margin-left: 10px;
 }
 
 .footer-part{
-  max-width: 576px;
-  position: absolute;
+  width:100%;
+ 
   height: 1100px;
   text-align: left;
-  width: 100%;
+ 
  
   
 }
 
- 
+ .extra-part{
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+ }
 
 }
 
@@ -153,15 +192,6 @@ margin-top: 20px;
 
 
 
-@media screen and (min-width: 1024px){
-    .nav-bar{
-        display: flex;
-    }
-    .fa-solid{
-        display: none;
-    }
-   
-   }
 
 
 
