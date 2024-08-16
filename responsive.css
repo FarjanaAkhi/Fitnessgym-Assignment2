@@ -1,9 +1,18 @@
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 992px){
   .nav-bar{
       display: flex;
   }
   .fa-solid{
       display: none;
+  }
+  .banner{
+    width: 100%;
+  }
+  .footer-part{
+    width: 100%;
+  }
+  .bmi-section{
+    width: 100%;
   }
  
  }
@@ -161,7 +170,7 @@ margin: 0 auto;
 .lastpart{
   flex-direction: column;
 
-width: 75%;
+width: 100%;
 
 margin-top: 20px;
 margin-left: 10px;
